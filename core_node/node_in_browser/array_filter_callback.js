@@ -19,3 +19,6 @@ console.log(result2)
 //chain-_ { _wrapped: [ 1, 2, 3, 4, 5 ], _chain: true }
 //chunk -[[]]
 //compact
+//reject -which condition is passed it will show in result 
+//min - show min value 
+//max - show max value 
