@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+        <link rel="stylesheet" href="./style2.css">
+<form method="post" action="/projects/1">
+    <fieldset id="personal_information">
+    <legend>Project Information</legend>
+    <ol>
+    <li>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    </li>
+    
+    <li></li><label for="priority">Priority</label>
+    <input type="range" min="0" max="10"
+    name="priority" value="0" id="priority"></li>
+
+    <li></li><label for="estimated_hours">Estimated Hours</label>
+<input type="number" name="estimated_hours"
+min="0" max="1000"
+id="estimated_hours"></li>
+
+
+<br>
+<br>
+<label for="start_date">Start date</label>
+<input type="date" name="start_date" id="start_date"
+value="2013-12-01">
+</br>
+<br>
+<label for="url">Staging URL</label>
+<input type="url" name="url" id="url">
+<br><br><br>
+<label for="project_color">Project color</label>
+<input type="color" name="project_color" id="project_color">
+<br><br><br>    
+    <li>
+    <input type="submit" value="Submit">
+    </li>
+    </ol>
+    </fieldset>
+
+    </form>
+</body>
+</html>

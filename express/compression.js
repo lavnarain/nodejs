@@ -1,0 +1,6 @@
+var express=require('express')
+var compress=require('compression')
+var app =express()
+.use(compress())
+.use(express.static(__dirname+'/public'))
+.listen(3000)
